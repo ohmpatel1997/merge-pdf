@@ -18,7 +18,7 @@ func main() {
 	flag.Parse()
 
 	*outputFilename = filepath.FromSlash( filepath.Clean(fmt.Sprintf("%s/%s", home, *outputFilename)))
-	
+
 	// Load the input PDF files
 	inputFiles := flag.Args()
 
@@ -33,7 +33,6 @@ func main() {
 
 	for i := range inputFiles {
 		inputFiles[i] = filepath.FromSlash( filepath.Clean(fmt.Sprintf("%s/%s", home, inputFiles[i])))
-		fmt.Println("path--", inputFiles[i])
 	}
 
 	// Merge the PDF files
