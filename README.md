@@ -16,7 +16,7 @@ This is a command-line tool for merging multiple PDF files into a single PDF fil
 3. Clone this repository:
 
 
-    git clone https://github.com/your-username/pdf-merge-tool.git
+    git clone git@github.com:ohmpatel1997/merge-pdf.git
 
 4. Navigate to the directory containing the cloned repository.
 
